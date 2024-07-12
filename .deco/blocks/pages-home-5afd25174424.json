@@ -3,6 +3,27 @@
   "path": "/",
   "sections": [
     {
+<<<<<<< HEAD
+      "__resolveType": "site/sections/HtmxHeader.tsx",
+      "Title": "red rock",
+      "Logo": {
+        "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/394ca3e3-7d75-42aa-bbba-1bf78d5a2629"
+      },
+      "DefaultUserImage": {
+        "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/fc6a32e3-8836-4c09-a400-0053c6d7b0cb"
+      },
+      "MenuItems": [
+        {
+          "text": "Teste 1"
+        },
+        {
+          "text": "Teste 2"
+        }
+      ]
+    },
+    {
+=======
+>>>>>>> main
       "__resolveType": "Header"
     },
     {
@@ -33,6 +54,8 @@
     },
     {
       "__resolveType": "Footer"
+<<<<<<< HEAD
+=======
     },
     {
       "__resolveType": "site/sections/ContentCourse.tsx",
@@ -54,6 +77,7 @@
           {}
         ]
       }
+>>>>>>> main
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
