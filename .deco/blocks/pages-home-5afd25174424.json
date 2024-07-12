@@ -3,6 +3,7 @@
   "path": "/",
   "sections": [
     {
+<<<<<<< HEAD
       "__resolveType": "site/sections/HtmxHeader.tsx",
       "Title": "red rock",
       "Logo": {
@@ -21,6 +22,8 @@
       ]
     },
     {
+=======
+>>>>>>> main
       "__resolveType": "Header"
     },
     {
@@ -51,6 +54,30 @@
     },
     {
       "__resolveType": "Footer"
+<<<<<<< HEAD
+=======
+    },
+    {
+      "__resolveType": "site/sections/ContentCourse.tsx",
+      "name": {
+        "capy": "Goo",
+        "events": [
+          {
+            "mainText": "Workshop I 20/04/2024",
+            "link": "https://deco.cx/",
+            "textLink": "See"
+          },
+          {
+            "mainText": "Workdshop II 20/04/2024",
+            "link": "https://deco.cx/"
+          },
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+>>>>>>> main
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

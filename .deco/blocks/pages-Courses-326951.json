@@ -1,0 +1,40 @@
+{
+  "name": "Courses",
+  "path": "/courses",
+  "sections": [
+    {
+      "__resolveType": "site/sections/ContentCourse.tsx",
+      "name": {
+        "capy": "Goo",
+        "events": [
+          {
+            "mainText": "WWW",
+            "link": "https://deco.cx/"
+          },
+          {
+            "mainText": "Workshop III",
+            "link": "https://deco.cx/"
+          },
+          {}
+        ],
+        "description": "My Description From Dash",
+        "titleDesc": "s simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      },
+      "content": {
+        "description": "simply du mmy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "titleDesc": "title from dash",
+        "events": [
+          {},
+          {},
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
