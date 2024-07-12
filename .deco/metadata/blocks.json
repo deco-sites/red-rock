@@ -115,7 +115,11 @@
   },
   "/.deco/blocks/pages-Courses-478943.json": {
     "name": "Courses",
-    "path": "/courses",
+    "path": "/courses"
+  },
+  "/.deco/blocks/pages-login-563054.json": {
+    "name": "login",
+    "path": "/login",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
