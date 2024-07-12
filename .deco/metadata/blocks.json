@@ -105,12 +105,6 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
   },
-  "/.deco/blocks/pages-couses-217681.json": {
-    "name": "couses",
-    "path": "/courses",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/Hackathon.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
@@ -118,5 +112,11 @@
   "/.deco/blocks/Hacka.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
+  },
+  "/.deco/blocks/pages-Courses-478943.json": {
+    "name": "Courses",
+    "path": "/courses",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

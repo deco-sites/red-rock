@@ -7,10 +7,9 @@ interface Props {
   name?: IGo;
 }
 
-const st = "border border-red-500";
 export default function Section({ name }: Props) {
   return (
-    <div class={`w-full h-full ${st}`}>
+    <div class={`w-full h-full flex`}>
       <SideBarCourse capy={name?.capy} />
     </div>
   );

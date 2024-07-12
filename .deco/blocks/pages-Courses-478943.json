@@ -1,0 +1,16 @@
+{
+  "name": "Courses",
+  "path": "/courses",
+  "sections": [
+    {
+      "__resolveType": "site/sections/ContentCourse.tsx",
+      "name": {
+        "capy": "Gooooogff"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
