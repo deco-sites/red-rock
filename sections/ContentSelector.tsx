@@ -1,3 +1,5 @@
+import Image from "apps/website/components/Image.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
 import { VideoWidget } from "apps/admin/widgets.ts";
 import { useSection } from "deco/hooks/useSection.ts";
 
@@ -8,7 +10,9 @@ export interface Item {
     Title: string;
     Video?: VideoWidget;
     YoutubeVideo?: string;
-    chosenVideo: 'Video' | 'Youtube video';
+    Image?: ImageWidget;
+    ImageAlt?: string;
+    chosenMidia?: 'Video' | 'Youtube video' | 'Image';
 
     /** @format rich-text */
     Text?: string;
@@ -34,12 +38,13 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
     const content = items &&
         <div >
             <h2 class="text-4xl font-semibold text-center">{items[selectedContent].Title}</h2>
-            {items[selectedContent].chosenVideo == 'Video'
-                ? items[selectedContent].Video && <div class="max-w-[1000px]">
+
+            {items[selectedContent].chosenMidia == 'Video'
+                && items[selectedContent].Video && <div class="max-w-[1000px] max-h-[600px]">
                     <video
                         width="1441"
                         height="720"
-                        class="w-full h-full object-cover rounded-xl lg:rounded-[42px] mt-4"
+                        class="w-full h-full object-cover rounded-xl mt-4"
                         controls
                     >
                         <source src={items[selectedContent].Video} type="video/mp4" />
@@ -47,19 +52,30 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
                             <embed width="320" height="240" src={items[selectedContent].Video} />
                         </object>
                     </video>
-                </div>
-                : items[selectedContent].YoutubeVideo && <div class="w-full  xl:w-[1000px] xl:h-[600px]">
-                    <iframe
-                        class="w-full h-full"
-                        width="1000"
-                        height="1000"
-                        src={`https://www.youtube.com/embed/${getYoutubeVideoId(items[selectedContent].YoutubeVideo)}`}
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen">
-                    </iframe>
                 </div>}
 
-            {items[selectedContent].Text && <p
+            {items[selectedContent].chosenMidia == 'Youtube video' && items[selectedContent].YoutubeVideo && <div class="w-full  xl:w-[1000px] xl:h-[600px]">
+                <iframe
+                    class="w-full h-full"
+                    width="1000"
+                    height="1000"
+                    src={`https://www.youtube.com/embed/${getYoutubeVideoId(items[selectedContent].YoutubeVideo)}`}
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+                </iframe>
+            </div>}
+
+            {items[selectedContent].chosenMidia == 'Image' && items[selectedContent].Image &&
+                <div class="max-w-[1000px] max-h-[600px]">
+                    <Image
+                        src={items[selectedContent].Image}
+                        alt={items[selectedContent].ImageAlt || ""}
+                        width={1000}
+                        class="h-full"
+                    />
+                </div>}
+
+            {items[selectedContent].Text && <p class="mt-4"
                 dangerouslySetInnerHTML={{ __html: items[selectedContent].Text }}
             >
             </p>}
@@ -69,7 +85,7 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
 
     return (
         <section>
-            <div class="max-w-[1440px] flex justify-between mx-auto">
+            <div class="max-w-[1440px] flex justify-between gap-4 mx-auto">
                 <ul class="bg-primary-content min-w-[400px] rounded-xl p-4">
                     {items && items.map((item, index) => (
                         <li class={`text-xl p-3 ${index != items.length - 1 && 'border-b'} border-primary`}>
