@@ -21,16 +21,18 @@ export default function Footer({
 }: Props) {
 
   return (
-    <div class="flex justify-between min-h-6 bg-primary px-4 sm:px-10">
-      <p>{copyright}</p>
-      {logo.src && <a href={logo.href} class="h-6">
-        <Image
-          src={logo.src}
-          alt={logo.alt || ""}
-          width={100}
-          class="h-full"
-        />
-      </a>}
-    </div>
+    <footer class="bg-primary">
+      <div class="flex justify-between min-h-6 px-4 sm:px-10 max-w-[1440px] mx-auto">
+        <p>{copyright}</p>
+        {logo.src && <a href={logo.href} class="h-6">
+          <Image
+            src={logo.src}
+            alt={logo.alt || ""}
+            width={100}
+            class="h-full"
+          />
+        </a>}
+      </div>
+    </footer>
   );
 }

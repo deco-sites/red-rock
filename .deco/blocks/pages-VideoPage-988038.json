@@ -1,0 +1,33 @@
+{
+  "name": "VideoPage",
+  "path": "/video",
+  "sections": [
+    {
+      "__resolveType": "global Header"
+    },
+    {
+      "__resolveType": "site/sections/ContentSelector.tsx",
+      "items": [
+        {
+          "chosenVideo": "Video",
+          "Title": "Lorem Ipsum",
+          "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/63d8fede-d73e-4783-a745-95ee2e7721e8",
+          "YoutubeVideo": "https://www.youtube.com/watch?v=BY2mTMBkuFI"
+        },
+        {
+          "chosenVideo": "Youtube video",
+          "Title": "Lorem Ipsum 2",
+          "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/63d8fede-d73e-4783-a745-95ee2e7721e8",
+          "YoutubeVideo": "https://www.youtube.com/watch?v=BY2mTMBkuFI"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
