@@ -21,7 +21,7 @@ import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$11 from "./sections/UserPerfil.tsx";
 
 const manifest = {
-  "sections": {
+  sections: {
     "site/sections/BlogPosts.tsx": $$$$$$0,
     "site/sections/ContentCourse.tsx": $$$$$$1,
     "site/sections/Faq.tsx": $$$$$$2,
@@ -38,12 +38,12 @@ const manifest = {
     "site/sections/Theme/Theme.tsx": $$$$$$10,
     "site/sections/UserPerfil.tsx": $$$$$$11,
   },
-  "apps": {
+  apps: {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
     "site/apps/site.ts": $$$$$$$$$$$1,
   },
-  "name": "site",
-  "baseUrl": import.meta.url,
+  name: "site",
+  baseUrl: import.meta.url,
 };
 
 export type Manifest = typeof manifest;
