@@ -41,7 +41,12 @@ export default function HtmxHeader({ Logo, Title = "Título", DefaultUserImage, 
         return <ul class="absolute top-16 left-0 flex justify-end w-full ">
             <div class="bg-primary-content rounded-xl p-4 min-w-40 z-50 flex flex-col">
                 {MenuItems.map((item, index) => (
-                    <a href={item.href || ""} class={`${index != MenuItems.length - 1 && 'border-b'} border-primary p-3`}>{item.text}</a>
+                    <a
+                        href={item.href || ""}
+                        class='border-b last:border-0 border-primary p-3 transition-transform duration-300 hover:scale-110'
+                    >
+                        {item.text}
+                    </a>
                 ))}
             </div>
         </ul>
