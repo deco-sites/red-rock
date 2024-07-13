@@ -128,5 +128,9 @@
     "path": "/courses",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/global%20Header.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/HtmxHeader.tsx"
   }
 }

@@ -20,5 +20,8 @@
     "primary": "#e40101",
     "secondary": "#e6e6e6",
     "tertiary": "#6b0000"
+  },
+  "complementaryColors": {
+    "primary-content": "#000000"
   }
 }
