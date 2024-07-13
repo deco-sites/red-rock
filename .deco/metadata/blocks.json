@@ -144,5 +144,13 @@
     "path": "/register",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FytTestimonial.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/ytTestimonial.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FProductInfo.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/ProductInfo.tsx"
   }
 }
