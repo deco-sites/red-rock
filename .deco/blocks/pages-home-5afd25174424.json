@@ -100,6 +100,76 @@
           "__resolveType": "Mobile"
         }
       },
+<<<<<<< HEAD
+      "title": "redrock",
+      "logoImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
+      "socialIcons": [
+        {
+          "href": "/",
+          "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bbbba190-3147-4e74-adc7-92cc7855e184"
+        },
+        {
+          "href": "/",
+          "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0a21cfcb-00c7-400e-8ba0-55ce6b5d2ea8"
+        }
+      ],
+      "courses": [
+        "Curso 1",
+        "curso 2",
+        "curso 3",
+        "curso 4"
+      ],
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Click here to tweak this text however you want.</p>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+      "imageCard": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bec50c6a-25da-44b9-a037-369c6713c087",
+          "label": "test"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bec50c6a-25da-44b9-a037-369c6713c087",
+          "label": "test"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bec50c6a-25da-44b9-a037-369c6713c087",
+          "label": "test"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bec50c6a-25da-44b9-a037-369c6713c087",
+          "label": "test"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "title": "Lorem Ipsun",
+      "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "itemCard": [
+        {
+          "featureList": [
+            {
+              "label": "Lorem Ipsum"
+=======
       {
         "value": [
           {
@@ -127,6 +197,7 @@
                   "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bbbba190-3147-4e74-adc7-92cc7855e184"
                 }
               ]
+>>>>>>> main
             },
             "title": "red rock",
             "logoImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
