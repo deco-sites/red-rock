@@ -160,5 +160,15 @@
   "/.deco/blocks/Preview%20%2Fsections%2FSummarySection.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/SummarySection.tsx"
+  },
+  "/.deco/blocks/pages-My%2520Courses-306921.json": {
+    "name": "Checkout",
+    "path": "/checkout",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FCheckoutSection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/CheckoutSection.tsx"
   }
 }
