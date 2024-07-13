@@ -12,58 +12,74 @@ interface Props {
 
 export default function Section({ title = "Capy", image, description }: Props) {
   return (
-    <div
-      class="grid items-center justify-center mx-auto mt-[250px] space-x-2 w-[400px] h-[500px] border-[5px] 
-    border-primary rounded-[35px]"
-    >
-      <Image
-        width={40}
-        height={40}
-        class="grid items-center justify-center mx-auto my-auto space-x-2 "
-        src={image}
-        alt={description}
-        decoding="async"
-        loading="lazy"
-      />
+    <div class="flex items-center justify-center w-screen h-screen">
+      <div
+        class="flex flex-col items-center justify-center mx-6 md:mx-auto my-auto  md:w-[400px] h-[650px] md:border-2 
+      md:border-primary rounded-3xl"
+      >
+        <div class="flex p-8 items-center justify-center  ">
+          <Image
+            width={40}
+            height={40}
+            class="mx-auto my-auto pr-4"
+            src={image}
+            alt={description}
+            decoding="async"
+            loading="lazy"
+          />
 
-      <p class="grid items-center justify-center mt-[40px]"> {title} </p>
+          <p class="font-semibold text-primary text-4xl"> {title} </p>
+        </div>
 
-      <form class="grid items-center justify-center ">
-        <label for="email">Email</label>
-        <input
-          class="space-x-2 rounded-[10px]"
-          style="display: block;"
-          id="email"
-          type="email"
-          name="email"
-          placeholder=" Digite seu email"
-        />
+        <form class="items-center justify-center p-8 ">
+          <label class="text-xl" for="email">
+            Email
+          </label>
+          <input
+            class=" rounded-[10px] w-full  text-neutral p-3  mt-2 mb-5 text-base"
+            id="email"
+            type="email"
+            name="email"
+            placeholder=" Digite seu email"
+          />
 
-        <label for="password">Senha</label>
-        <input
-          class="rounded-[10px]"
-          style="display: block;"
-          id="password"
-          type="password"
-          name="password"
-          placeholder=" Digite sua senha"
-        />
+          <label for="password" class="text-xl ">
+            Senha
+          </label>
+          <input
+            class="rounded-[10px] w-full text-neutral mt-2 mb-5 p-3 text-base"
+            id="password"
+            type="password"
+            name="password"
+            placeholder=" Digite sua senha"
+          />
 
-        <label for="password">Confirmar senha</label>
-        <input
-          class="rounded-[10px]"
-          style="display: block;"
-          id="password"
-          type="password"
-          name="password"
-          placeholder=" Redigite sua senha"
-        />
+          <label for="password" class="text-xl mt-5">
+            Confirme sua senha
+          </label>
+          <input
+            class="rounded-[10px] w-full text-neutral mt-2 p-3 text-base"
+            id="password"
+            type="password"
+            name="password"
+            placeholder=" Redigite sua senha"
+          />
+        </form>
 
-        <button class="btn btn-sm btn-primary grid items-center justify-center mx-auto mt-[20px] rounded-[10px] w-[200px]">
+        <button
+          class="btn btn-sm btn-primary grid items-center justify-center mx-auto mt-[20px]
+          rounded-[10px] w-[200px] text-secondary text-[20px]"
+        >
           Registrar
         </button>
-        <a class="grid items-center justify-center">Login</a>
-      </form>
+
+        <a
+          href="./login"
+          class="grid items-center justify-center text-secondary p-4"
+        >
+          Login
+        </a>
+      </div>
     </div>
   );
 }
