@@ -93,7 +93,7 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
                                 hx-trigger="click"
                                 hx-get={useSection({ props: { selectedContent: index, renderContent: true } })}
                                 hx-target="#content"
-                                class="w-full text-left"
+                                class="w-full text-left transition-transform duration-300 hover:scale-110"
                             >
                                 {item.Title}
 
