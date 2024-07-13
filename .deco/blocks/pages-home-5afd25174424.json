@@ -95,7 +95,10 @@
           {
             "__resolveType": "Footer"
           }
-        ]
+        ],
+        "rule": {
+          "__resolveType": "Mobile"
+        }
       },
       {
         "value": [
