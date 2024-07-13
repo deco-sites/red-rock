@@ -47,46 +47,48 @@ export default function HtmxHeader({ Logo, Title = "Título", DefaultUserImage, 
         </ul>
     }
 
-    return <header class="min-h-16 bg-primary text-secondary flex items-center justify-between px-4 relative">
-        <div class="flex items-center gap-2">
-            {Logo && <div class="h-14">
-                <Image
-                    width={80}
-                    src={Logo.url}
-                    alt={Logo?.alt || ""}
-                    class="h-full"
+    return <header class="bg-primary">
+        <div class="min-h-16 text-secondary flex items-center justify-between px-4 relative max-w-[1440px] mx-auto">
+            <div class="flex items-center gap-2">
+                {Logo && <div class="h-14">
+                    <Image
+                        width={80}
+                        src={Logo.url}
+                        alt={Logo?.alt || ""}
+                        class="h-full"
+                    />
+                </div>}
+                <h1 class="text-4xl font-bold">{Title}</h1>
+            </div>
+            <div class="flex relative">
+                {DefaultUserImage && <div class="h-14">
+                    <Image
+                        width={56}
+                        src={DefaultUserImage.url}
+                        alt={DefaultUserImage.alt || ""}
+                        class="h-full rounded-full object-cover"
+                    />
+                </div>}
+                <label
+                    hx-trigger="click"
+                    hx-post={useSection({ props: { displayMenu: true } })}
+                    hx-target="#modal"
+                    hx-include='[id=modalState]'
+                    htmlFor="modalState"
+                    class="cursor-pointer"
+                >
+                    <svg width="56px" height="56px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-three-dots-vertical fill-current text-secondary">
+                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                </label>
+                <div id="modal" />
+                <input
+                    name="modalState"
+                    type="checkbox"
+                    class="hidden"
+                    id="modalState"
                 />
-            </div>}
-            <h1 class="text-4xl font-bold">{Title}</h1>
-        </div>
-        <div class="flex relative">
-            {DefaultUserImage && <div class="h-14">
-                <Image
-                    width={56}
-                    src={DefaultUserImage.url}
-                    alt={DefaultUserImage.alt || ""}
-                    class="h-full rounded-full object-cover"
-                />
-            </div>}
-            <label
-                hx-trigger="click"
-                hx-post={useSection({ props: { displayMenu: true } })}
-                hx-target="#modal"
-                hx-include='[id=modalState]'
-                htmlFor="modalState"
-                class="cursor-pointer"
-            >
-                <svg width="56px" height="56px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-three-dots-vertical fill-current text-secondary">
-                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
-                </svg>
-            </label>
-            <div id="modal" />
-            <input
-                name="modalState"
-                type="checkbox"
-                class="hidden"
-                id="modalState"
-            />
+            </div>
         </div>
     </header>
 }
