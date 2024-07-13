@@ -150,5 +150,19 @@
     "path": "/user-perfil",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Summary-776323.json": {
+    "name": "Summary",
+    "path": "/summary",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Summary.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FSummarySection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/SummarySection.tsx"
   }
 }
