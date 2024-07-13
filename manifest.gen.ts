@@ -15,12 +15,13 @@ import * as $$$$$$5 from "./sections/Hero.tsx";
 import * as $$$$$$13 from "./sections/hero2.tsx";
 import * as $$$$$$6 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$7 from "./sections/LoginSection.tsx";
+import * as $$$$$$14 from "./sections/HtmxHeader.tsx";
 import * as $$$$$$8 from "./sections/Logos.tsx";
 import * as $$$$$$9 from "./sections/Testimonials.tsx";
 import * as $$$$$$10 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
-  "sections": {
+  sections: {
     "site/sections/BlogPosts.tsx": $$$$$$0,
     "site/sections/ContentCourse.tsx": $$$$$$1,
     "site/sections/Faq.tsx": $$$$$$2,
@@ -32,16 +33,17 @@ const manifest = {
     "site/sections/hero2.tsx": $$$$$$13,
     "site/sections/ImageWithParagraph.tsx": $$$$$$6,
     "site/sections/LoginSection.tsx": $$$$$$7,
+    "site/sections/HtmxHeader.tsx": $$$$$$14,
     "site/sections/Logos.tsx": $$$$$$8,
     "site/sections/Testimonials.tsx": $$$$$$9,
     "site/sections/Theme/Theme.tsx": $$$$$$10,
   },
-  "apps": {
+  apps: {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
     "site/apps/site.ts": $$$$$$$$$$$1,
   },
-  "name": "site",
-  "baseUrl": import.meta.url,
+  name: "site",
+  baseUrl: import.meta.url,
 };
 
 export type Manifest = typeof manifest;
