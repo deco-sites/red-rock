@@ -13,9 +13,10 @@ interface Props {
   title: string;
   logoImage: ImageWidget;
   socialIcons: Social[];
+  courses?: string[];
 }
 
-export default function HeaderLandingPage({ title = "Capy", logoImage, socialIcons }: Props) {
+export default function HeaderLandingPage({ title = "Capy", logoImage, socialIcons, courses }: Props) {
   return (
     <div class="bg-primary">
       <div class="md:w-[1300px] flex items-center justify-between mx-auto">
@@ -32,11 +33,10 @@ export default function HeaderLandingPage({ title = "Capy", logoImage, socialIco
           <h1 class="font-bold text-[28px]">{title}</h1>
         </div>
         <div class="flex">
-          <nav class="flex mr-5">
-            <span class="ml-3">curso 01</span>
-            <span class="ml-3">curso 02</span>
-            <span class="ml-3">curso 03</span>
-            <span class="ml-3">curso 04</span>
+          <nav class="flex mr-5 gap-3">
+            {courses.map((course) => (
+              <span>{course}</span>
+            ))}
           </nav>
 
           <div class="flex">

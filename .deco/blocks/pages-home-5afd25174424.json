@@ -19,6 +19,12 @@
           "href": "/",
           "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0a21cfcb-00c7-400e-8ba0-55ce6b5d2ea8"
         }
+      ],
+      "courses": [
+        "Curso 1",
+        "curso 2",
+        "curso 3",
+        "curso 4"
       ]
     },
     {
