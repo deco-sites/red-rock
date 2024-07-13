@@ -48,10 +48,21 @@ export default function Section({ title = "Capy", image, description }: Props) {
           name="password"
           placeholder=" Digite sua senha"
         />
+
+        <label for="password">Confirmar senha</label>
+        <input
+          class="rounded-[10px]"
+          style="display: block;"
+          id="password"
+          type="password"
+          name="password"
+          placeholder=" Redigite sua senha"
+        />
+
         <button class="btn btn-sm btn-primary grid items-center justify-center mx-auto mt-[20px] rounded-[10px] w-[200px]">
-          Login
+          Registrar
         </button>
-        <a class="grid items-center justify-center">Registrar</a>
+        <a class="grid items-center justify-center">Login</a>
       </form>
     </div>
   );

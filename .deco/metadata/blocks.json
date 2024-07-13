@@ -138,5 +138,11 @@
     "path": "/video",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Register-23734.json": {
+    "name": "Register",
+    "path": "/register",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
