@@ -132,5 +132,15 @@
   "/.deco/blocks/global%20Header.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/HtmxHeader.tsx"
+  },
+  "/.deco/blocks/pages-My%2520Perfil-530345.json": {
+    "name": "My Perfil",
+    "path": "/user-perfil",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FUserPerfil.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/UserPerfil.tsx"
   }
 }

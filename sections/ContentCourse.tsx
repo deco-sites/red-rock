@@ -12,7 +12,7 @@ interface Props {
 export default function Section({ content, classes = [] }: Props) {
   return (
     <div
-      class={`flex w-full h-full flex-col-reverse px-6 py-10 gap-5 md:flex-row`}
+      class={`flex w-full h-full flex-col-reverse px-6 py-10 gap-5 md:flex-row mb-auto`}
     >
       <SideBarCourse
         titleDesc={content?.titleDesc}
