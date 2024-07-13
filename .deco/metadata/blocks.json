@@ -113,10 +113,6 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
   },
-  "/.deco/blocks/pages-Courses-478943.json": {
-    "name": "Courses",
-    "path": "/courses"
-  },
   "/.deco/blocks/pages-login-563054.json": {
     "name": "login",
     "path": "/login",
