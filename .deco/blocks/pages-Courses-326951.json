@@ -1,4 +1,5 @@
 {
+  "__resolveType": "website/pages/Page.tsx",
   "name": "Courses",
   "path": "/courses",
   "sections": [
@@ -23,11 +24,7 @@
       "content": {
         "description": "simply du mmy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         "titleDesc": "title from dash",
-        "events": [
-          {},
-          {},
-          {}
-        ],
+        "events": [{}, {}, {}, {}],
         "contacts": [
           {
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/e5e3884e-8ec9-43e1-9dc5-9be5c6364f98"
@@ -92,8 +89,9 @@
       ]
     }
   ],
+  "name": "Courses",
+  "path": "/courses",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
-  },
-  "__resolveType": "website/pages/Page.tsx"
+  }
 }

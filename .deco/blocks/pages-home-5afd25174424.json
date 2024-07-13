@@ -3,7 +3,7 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "global Header"
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
