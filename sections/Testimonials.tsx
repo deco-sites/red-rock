@@ -21,7 +21,11 @@ export interface Props {
   subtitle?: string;
   itemCard: Card[];
 }
-export default function Section({ title, subtitle, itemCard }: Props) {
+export default function Section({
+  title = "Title",
+  subtitle = "Lorem Ipsum",
+  itemCard = [],
+}: Props) {
   return (
     <div class="bg-accent p-24">
       <div class="md:w-[1300px] mx-auto flex flex-col items-center　">

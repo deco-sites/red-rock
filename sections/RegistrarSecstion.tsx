@@ -7,10 +7,14 @@ interface Props {
    */
   title: string;
   image?: ImageWidget;
-  description: string;
+  description?: string;
 }
 
-export default function Section({ title = "Capy", image, description }: Props) {
+export default function Section({
+  title = "Title",
+  image = "",
+  description = "Lorem Ipsum",
+}: Props) {
   return (
     <div class="flex items-center justify-center w-screen h-screen">
       <div
