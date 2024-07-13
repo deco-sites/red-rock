@@ -1199,7 +1199,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 17.524129248845995,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1221,7 +1221,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 55.87075115400756,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1236,6 +1236,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 26.605119597146448,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1271,6 +1292,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::visibility::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D": {
+          "name": "JSON Properties",
+          "icon": "data-object",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "JSON Properties",
+          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::JSON%20Properties::data-object::JSON%20Properties::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1888,8 +1920,8 @@
       }
     },
     {
-      "id": "/.deco/blocks/pages-My%2520Perfil-530345.json",
-      "name": "My Perfil",
+      "id": "/.deco/blocks/pages-Register-15741.json",
+      "name": "Register",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -1938,12 +1970,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Register-15741.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Properties::list::Properties::%7B%7D"
                     },
                     "width": 30,
                     "isClosable": true,
@@ -1960,12 +1992,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Preview::visibility::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Register-15741.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Preview::visibility::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -1983,26 +2015,26 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Properties::list::Properties::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Properties::list::Properties::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Preview::visibility::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-My%252520Perfil-530345.json::Preview::visibility::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-Register-15741.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -2010,8 +2042,8 @@
       }
     },
     {
-      "id": "/.deco/blocks/pages-VideoPage-988038.json",
-      "name": "VideoPage",
+      "id": "/.deco/blocks/pages-Register-23734.json",
+      "name": "Register",
       "pinned": false,
       "icon": "file",
       "layout": {
@@ -2053,19 +2085,19 @@
             "content": [
               {
                 "type": "stack",
-                "width": 37.034700315457414,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Register-23734.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Properties::list::Properties::%7B%7D"
                     },
                     "width": 30,
                     "isClosable": true,
@@ -2075,19 +2107,19 @@
               },
               {
                 "type": "stack",
-                "width": 62.965299684542586,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Preview::visibility::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Register-23734.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Preview::visibility::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -2105,26 +2137,26 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Properties::list::Properties::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Properties::list::Properties::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Preview::visibility::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Preview::visibility::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2Fpages-Register-23734.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
