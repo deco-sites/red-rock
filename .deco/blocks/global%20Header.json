@@ -1,24 +1,25 @@
 {
   "__resolveType": "site/sections/HtmxHeader.tsx",
   "Logo": {
-    "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c6b7342c-be7c-4fbe-af32-d60a7416c874"
+    "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
+    "alt": "logo red rock"
   },
   "Title": "red rock",
   "DefaultUserImage": {
-    "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/aa156e69-9739-4b3e-b983-e4754c748b3b"
+    "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/8de00f53-b79b-45a6-a18d-793777c02a8d"
   },
   "MenuItems": [
     {
-      "text": "Teste 1"
+      "text": "Perfil",
+      "href": "/user-perfil"
     },
     {
-      "text": "Teste 2"
+      "text": "Cursos",
+      "href": "/courses"
     },
     {
-      "text": "Teste 3"
-    },
-    {
-      "text": "Teste 4"
+      "text": "Logout",
+      "href": "/"
     }
   ]
 }

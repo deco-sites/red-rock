@@ -33,10 +33,20 @@
           {}
         ],
         "contacts": [
-          {},
-          {},
-          {}
-        ]
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/e9600bfa-021f-4bee-8658-4e18c8815f49",
+            "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/98d211a8-45bd-42bd-bb1c-402be28a760f",
+            "link": "/"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/6b0c7945-5a14-4018-90da-3aacc4a9142e",
+            "link": "/"
+          }
+        ],
+        "contatTitle": "Contato"
       },
       "classes": [
         {},
