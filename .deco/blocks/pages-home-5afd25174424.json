@@ -1,42 +1,60 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/HtmxHeader.tsx",
+      "Logo": {
+        "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c6b7342c-be7c-4fbe-af32-d60a7416c874"
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "Title": "red rock",
+      "DefaultUserImage": {
+        "url": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/aa156e69-9739-4b3e-b983-e4754c748b3b"
       },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+      "MenuItems": [
+        {
+          "text": "Teste 1"
+        },
+        {
+          "text": "Teste 2"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Click here to tweak this text however you want.</p>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
