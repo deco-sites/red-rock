@@ -80,7 +80,7 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
             >
             </p>}
 
-            {items && selectedContent != items.length - 1 && <div>
+            {items && selectedContent != items.length - 1 && <div class="flex justify-end">
                 <button
                     class="flex items-center transition-transform duration-300 hover:scale-110"
                     hx-trigger="click"
