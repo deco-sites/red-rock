@@ -8,10 +8,12 @@ export interface IPlanInfoCard {
   subText?: string;
   totalPrice?: string;
 }
+const DEFAULT_IMAGE =
+  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
 
 export default function PlanInfoCard({
   backGroundColor = "primary",
-  image,
+  image = DEFAULT_IMAGE,
   description = [
     "Lorem ipsum",
     "dolor sit amet",

@@ -15,12 +15,12 @@ export default function Section({ content, classes = [] }: Props) {
       class={`flex w-full h-full flex-col-reverse px-6 py-10 gap-5 md:flex-row mb-auto`}
     >
       <SideBarCourse
-        titleDesc={content?.titleDesc}
-        description={content?.description}
-        events={content?.events}
-        key={content?.description}
-        contacts={content?.contacts}
-        contatTitle={content?.contatTitle}
+        titleDesc={content?.titleDesc || "Title"}
+        description={content?.description || "Lorem Ipsum"}
+        events={content?.events || []}
+        key={content?.description || "Lorem Ipsum Key"}
+        contacts={content?.contacts || []}
+        contatTitle={content?.contatTitle || "Contact"}
       />
       <div class={`w-full flex flex-wrap px-6 gap-7`}>
         {classes.map((cls) => (
@@ -28,7 +28,7 @@ export default function Section({ content, classes = [] }: Props) {
             key={cls.courseTitle}
             courseTitle={cls.courseTitle}
             courseImage={cls.courseImage}
-            link={cls.link || ""}
+            link={cls.link || "/video"}
           />
         ))}
       </div>
