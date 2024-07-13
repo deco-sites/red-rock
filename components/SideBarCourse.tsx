@@ -1,43 +1,85 @@
+import { ImageWidget, TextArea } from "apps/admin/widgets.ts";
+import Image from "apps/website/components/Image.tsx";
+
 export interface IEvents {
   mainText?: string;
   link?: string;
   textLink?: string;
 }
 
-export interface Props {
-  /**
-   * @description The description of name Go.
-   */
-  events?: IEvents[];
-  description?: string;
-  titleDesc?: string;
+export interface ImagesContacts {
+  image?: ImageWidget;
+  link?: string;
 }
 
-const st = "border border-red-500";
+export interface Props {
+  events?: IEvents[];
+  titleDesc?: string;
+  description?: TextArea;
+  contatTitle?: string;
+  contacts?: ImagesContacts[];
+}
 
 export default function SideBarCourse({
   events = [],
   description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumm",
   titleDesc = "Title of description",
+  contacts = [],
+  contatTitle = "Dúvidas",
 }: Props) {
   return (
-    <div class={`w-[400px] h-[500px] ${st} rounded-[10px]`}>
-      <p class="text-xl text-primary font-semibold mx-auto text-center">
-        Próximos eventos
-      </p>
-      <ul class={`w-full`}>
-        {events.map((e) => (
-          <li class={"w-full flex-col"}>
-            <p>{e.mainText || "Workshop 20/08/2024"}</p>
-            <a href={e.link || "https://deco.cx/"}>{e.textLink || "Link"}</a>
-          </li>
-        ))}
-      </ul>
-      <div>
+    <div
+      class={`flex w-[320px] rounded-[10px] flex-col gap-2 bg-black px-2 py-3 justify-around pb-4 max-h-[600px] md:w-[400px]`}
+    >
+      <div class={`flex flex-col gap-2`}>
+        <p class="text-xl text-primary font-semibold mx-auto text-center">
+          Próximos eventos
+        </p>
+        <ul class={`w-full flex flex-col gap-1 max-h-[250px] overflow-auto`}>
+          {events.map((e) => (
+            <li
+              class={
+                "w-11/12 flex flex-col border-b-2 border-primary pb-2 pt-1 px-2 mx-auto"
+              }
+            >
+              <p class={"font-semibold"}>
+                {e.mainText || "Workshop 20/08/2024"}
+              </p>
+              <a href={e.link || "https://deco.cx/"}>{e.textLink || "Link"}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div class={`flex flex-col gap-2 px-2`}>
         <p class="text-xl text-primary font-semibold mx-auto text-center">
           {titleDesc}
         </p>
-        <p class=" text-secondary mx-auto text-center">{description}</p>
+        <p class="text-secondary mx-auto text-left max-h-[150px] overflow-auto">
+          {description}
+        </p>
+      </div>
+
+      <div class={`flex flex-col gap-2`}>
+        <p class="text-xl text-primary font-semibold mx-auto text-center">
+          {contatTitle}
+        </p>
+        <div
+          class={`flex gap-2 w-full overflow-auto justify-around px-2 mt-auto`}
+        >
+          {contacts.map((c) => (
+            <a href={c.link || "https://deco.cx/"}>
+              <Image
+                width={50}
+                height={50}
+                class="object-fit z-10"
+                src={c.image}
+                alt={c.link}
+                decoding="async"
+                loading="lazy"
+              />
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );
