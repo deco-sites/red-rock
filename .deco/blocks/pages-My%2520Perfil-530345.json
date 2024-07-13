@@ -1,0 +1,40 @@
+{
+  "name": "My Perfil",
+  "path": "/user-perfil",
+  "sections": [
+    {
+      "__resolveType": "global Header"
+    },
+    {
+      "__resolveType": "site/sections/UserPerfil.tsx",
+      "userPlan": [
+        {
+          "description": [
+            "Lorem one",
+            "Go go go",
+            "Go go go",
+            "Go there tyffy"
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/ffef7faa-dab9-4564-9ad9-69ec3ca60ceb"
+        },
+        {
+          "backGroundColor": "black",
+          "description": [
+            "Lorem one",
+            "Go go go",
+            "Go there tyffy",
+            "Go there tyffy"
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/058ed286-8baa-419b-8ce5-8640c3106e8b"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

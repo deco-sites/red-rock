@@ -22,6 +22,7 @@
     "tertiary": "#6b0000"
   },
   "complementaryColors": {
-    "primary-content": "#000000"
+    "primary-content": "#000000",
+    "base-200": "#545454"
   }
 }

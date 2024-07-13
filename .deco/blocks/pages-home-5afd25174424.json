@@ -32,9 +32,6 @@
       "__resolveType": "site/sections/Faq.tsx"
     },
     {
-      "__resolveType": "Footer"
-    },
-    {
       "__resolveType": "site/sections/ContentCourse.tsx",
       "name": {
         "capy": "Goo",
@@ -54,6 +51,9 @@
           {}
         ]
       }
+    },
+    {
+      "__resolveType": "Footer"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
