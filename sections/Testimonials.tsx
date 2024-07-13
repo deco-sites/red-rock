@@ -107,24 +107,22 @@ function SliderItem(
   } = slide;
 
   return (
-    <div
-      id={id}
-      class="relative overflow-y-hidden w-full min-h-[292px]"
-    >
-      <div class="flex flex-col justify-center gap-16 p-8 border border-base-content rounded-2xl h-full max-w-[600px]">
-        <p class="text-lg">{content?.description}</p>
-        <div class="flex items-center gap-5">
+    <div id={id} class="relative overflow-y-hidden w-full min-h-[292px]">
+      <div class="flex flex-col justify-center gap-6 p-8 border border-accent rounded-2xl h-full max-w-[400px]">
+        <div class="flex flex-col items-center gap-5">
           <Image
-            class="object-cover w-14 h-14 rounded-full"
+            class="object-cover w-[100px] h-[100px] rounded-full border border-accent"
             alt={content?.alt}
             src={content?.avatar || ""}
-            width={56}
-            height={56}
+            width={100}
+            height={100}
+            loading="lazy"
           />
-          <div class="flex flex-col">
+          <div class="flex flex-col items-center">
             <p class="font-semibold text-base">{content?.name}</p>
             <p class="text-base">{content?.position}</p>
           </div>
+          <p class="text-lg">{content?.description}</p>
         </div>
       </div>
     </div>
@@ -145,7 +143,7 @@ function Dots({ slides, interval = 0 }: Props) {
           `,
         }}
       />
-      <ul class="carousel col-span-full gap-3 z-10">
+      <ul class="carousel col-span-full gap-3 z-10 mx-auto">
         {slides?.map((_, index) => (
           <li class="carousel-item">
             <Slider.Dot index={index}>
@@ -197,9 +195,9 @@ function Carousel(props: Props) {
   return (
     <div
       id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
+      class="min-h-min flex flex-col md:w-[1300px] lg:mx-auto mx-4 py-12 lg:py-28"
     >
-      <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
+      <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16 text-primary text-center mx-auto">
         {title}
       </h2>
       <Slider
@@ -211,7 +209,7 @@ function Carousel(props: Props) {
         {slides?.map((slide, index) => (
           <Slider.Item
             index={index}
-            class="carousel-item max-w-[600px] w-full"
+            class="carousel-item max-w-[400px] w-full"
           >
             <SliderItem
               slide={slide}

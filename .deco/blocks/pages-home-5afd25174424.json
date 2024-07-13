@@ -1,42 +1,123 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Click here to tweak this text however you want.</p>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+      "imageCard": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/aa156e69-9739-4b3e-b983-e4754c748b3b",
+          "label": "card-01"
+        },
+        {
+          "label": "card-02",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/394ca3e3-7d75-42aa-bbba-1bf78d5a2629"
+        },
+        {
+          "label": "card-03",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/9f2685ff-37e2-4ba5-bde1-c01ad7ffdbe2"
+        },
+        {
+          "label": "card-04",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/2abbee95-8c44-405c-965f-df5fb3ad8024"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": false,
+      "dots": true
+    },
+    {
+      "__resolveType": "site/sections/PriceCard.tsx",
+      "title": "Lorem Ipsun",
+      "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "itemCard": [
+        {
+          "featureList": [
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            }
+          ],
+          "icone": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/8f621584-4dd6-439e-a7c1-a299ec7c9e79",
+          "cardTitle": "Free",
+          "price": "R$000,00",
+          "buttonText": "FREE"
+        },
+        {
+          "featureList": [
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            }
+          ],
+          "icone": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/8f621584-4dd6-439e-a7c1-a299ec7c9e79",
+          "cardTitle": "Free",
+          "price": "R$490,00",
+          "buttonText": "GET STARTED"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}

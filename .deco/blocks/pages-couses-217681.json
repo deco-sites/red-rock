@@ -1,7 +1,22 @@
 {
   "name": "couses",
   "path": "/courses",
-  "sections": [],
+  "sections": [
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c6b7342c-be7c-4fbe-af32-d60a7416c874",
+      "placement": "left",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "/",
+          "text": "rtyu"
+        }
+      ],
+      "title": "erthy",
+      "description": "ghjk,l.mh"
+    }
+  ],
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },

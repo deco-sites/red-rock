@@ -19,6 +19,7 @@
     "base-100": "#252222",
     "primary": "#e40101",
     "secondary": "#e6e6e6",
-    "tertiary": "#6b0000"
+    "tertiary": "#6b0000",
+    "neutral": "#252222"
   }
 }
