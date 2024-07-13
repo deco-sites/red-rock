@@ -33,9 +33,9 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
 
     const content = items &&
         <div >
-            <h2>{items[selectedContent].Title}</h2>
+            <h2 class="text-4xl font-semibold text-center">{items[selectedContent].Title}</h2>
             {items[selectedContent].chosenVideo == 'Video'
-                ? <div class="max-w-[1000px]">
+                ? items[selectedContent].Video && <div class="max-w-[1000px]">
                     <video
                         width="1441"
                         height="720"
@@ -59,6 +59,10 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
                     </iframe>
                 </div>}
 
+            {items[selectedContent].Text && <p
+                dangerouslySetInnerHTML={{ __html: items[selectedContent].Text }}
+            >
+            </p>}
         </div>
 
     if (renderContent) return content;
