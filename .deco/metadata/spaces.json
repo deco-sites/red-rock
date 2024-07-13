@@ -1199,7 +1199,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 45.33898305084746,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1221,7 +1221,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 54.66101694915254,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2053,7 +2053,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 26.940063091482653,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2075,7 +2075,7 @@
               },
               {
                 "type": "stack",
-                "width": 73.05993690851736,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2498,10 +2498,10 @@
       }
     },
     {
-      "id": "/.deco/blocks/Desktop.json",
-      "name": "Desktop",
+      "id": "/.deco/blocks/Footer.json",
+      "name": "Footer",
       "pinned": false,
-      "icon": "flask",
+      "icon": "block",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -2548,12 +2548,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D"
                     },
                     "width": 30,
                     "isClosable": true,
@@ -2570,12 +2570,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FDesktop.json::Preview::visibility::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FDesktop.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FDesktop.json::Preview::visibility::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -2593,26 +2593,26 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D": {
+        "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
-          "id": "%2F.deco%2Fblocks%2FDesktop.json::Properties::list::Properties::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2FFooter.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2FDesktop.json::Preview::visibility::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "visibility",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2FDesktop.json::Preview::visibility::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::visibility::Preview::%7B%7D",
           "state": {
             "__signal": null
           }
