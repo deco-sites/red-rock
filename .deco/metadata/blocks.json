@@ -144,5 +144,11 @@
     "path": "/register",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-User%2520Perfil-248549.json": {
+    "name": "User Perfil",
+    "path": "/user-perfil",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

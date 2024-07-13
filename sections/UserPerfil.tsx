@@ -39,6 +39,8 @@ export default function Section({
             image={p.image}
             backGroundColor={p.backGroundColor}
             description={p.description}
+            subText={p.subText}
+            totalPrice={p.totalPrice}
           />
         ))}
       </div>
