@@ -1,0 +1,37 @@
+{
+  "name": "User Perfil",
+  "path": "/user-perfil",
+  "sections": [
+    {
+      "__resolveType": "site/sections/UserPerfil.tsx",
+      "title": "Meu Perfil",
+      "userPlan": [
+        {
+          "backGroundColor": "black",
+          "description": [
+            "Acessos a one",
+            "Acessos two",
+            "Acesso three"
+          ],
+          "subText": " ",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/e19f69dd-5efb-4afe-bc8c-89e0a83d6a78"
+        },
+        {
+          "backGroundColor": "primary",
+          "description": [
+            "Acesso aulas",
+            "Acesso a mentorias",
+            "Acesso ao grupo"
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/3581301d-f5bb-41ab-96dd-45ab101941a4",
+          "subText": "12x de R$9,00 ou R$ 000,00 a vista",
+          "totalPrice": "1000"
+        }
+      ]
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Summary",
+  "path": "/summary",
+  "sections": [
+    {
+      "__resolveType": "global Header"
+    },
+    {
+      "__resolveType": "site/sections/SummarySection.tsx",
+      "placement": "right",
+      "cta": [
+        {
+          "style": "Outline",
+          "href": "/courses",
+          "text": "Inicar curso"
+        }
+      ],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/35f72d3c-ac20-4ab7-9b10-4c6ed9452103"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

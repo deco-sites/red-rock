@@ -4,16 +4,16 @@ import Image from "apps/website/components/Image.tsx";
 export interface ICourseCard {
   courseTitle?: string;
   courseImage?: ImagesContacts;
-  onClick: () => void;
+  link: string;
 }
 
 export default function CourseCard({
   courseTitle,
   courseImage,
-  onClick,
+  link,
 }: ICourseCard) {
   return (
-    <div class={`flex flex-col gap-3 w-fit h-fit mx-auto`}>
+    <a class={`flex flex-col gap-3 w-fit h-fit mx-auto`} href={link}>
       <Image
         width={250}
         height={250}
@@ -23,9 +23,7 @@ export default function CourseCard({
         decoding="async"
         loading="lazy"
       />
-      <button class={"btn bg-primary rounded-md text-xl"} onClick={onClick}>
-        {courseTitle}
-      </button>
-    </div>
+      <p class={"btn bg-primary rounded-md text-xl"}>{courseTitle}</p>
+    </a>
   );
 }

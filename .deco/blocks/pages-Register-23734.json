@@ -1,0 +1,16 @@
+{
+  "name": "Register",
+  "path": "/register",
+  "sections": [
+    {
+      "__resolveType": "site/sections/RegistrarSecstion.tsx",
+      "title": "as",
+      "description": "as",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/6a7bfbb1-0e28-4b6b-a741-2bbd36aed68b"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

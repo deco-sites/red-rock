@@ -18,7 +18,7 @@ export default function PlanInfoCard({
     "consectetur",
     "adipisicing elit.",
   ],
-  subText = "12x de R$00,00 ou R$ 000,00 a vista",
+  subText = "",
   totalPrice = "0,00",
 }: IPlanInfoCard) {
   return (

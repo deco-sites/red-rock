@@ -28,7 +28,7 @@ export default function Section({ content, classes = [] }: Props) {
             key={cls.courseTitle}
             courseTitle={cls.courseTitle}
             courseImage={cls.courseImage}
-            onClick={() => {}}
+            link={cls.link || ""}
           />
         ))}
       </div>
