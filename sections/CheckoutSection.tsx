@@ -24,7 +24,7 @@ export default function CheckoutSection({
           "w-full md:w-2/3 h-[500px] border rounded-md border-secondary p-4 flex flex-col gap-4 justify-between"
         }
       >
-        <div class="w-full h-[100px] ">
+        <div class="w-full h-[150px] ">
           <Image
             width={500}
             height={150}
