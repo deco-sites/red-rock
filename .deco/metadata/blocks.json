@@ -122,5 +122,11 @@
     "path": "/login",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Courses-326951.json": {
+    "name": "Courses",
+    "path": "/courses",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

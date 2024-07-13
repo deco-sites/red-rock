@@ -1,5 +1,8 @@
 {
+
   "__resolveType": "website/pages/Page.tsx",
+  "name": "Courses",
+  "path": "/courses",
   "sections": [
     {
       "__resolveType": "site/sections/ContentCourse.tsx",
