@@ -6,47 +6,49 @@ import * as $$$$$$$$$$$0 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Banner.tsx";
 import * as $$$$$$1 from "./sections/BlogPosts.tsx";
-import * as $$$$$$2 from "./sections/ContentCourse.tsx";
-import * as $$$$$$3 from "./sections/ContentSelector.tsx";
-import * as $$$$$$4 from "./sections/Faq.tsx";
-import * as $$$$$$5 from "./sections/Footer.tsx";
-import * as $$$$$$17 from "./sections/hero-1.tsx";
-import * as $$$$$$18 from "./sections/hero-2.tsx";
-import * as $$$$$$6 from "./sections/Hero.tsx";
-import * as $$$$$$19 from "./sections/hero2.tsx";
-import * as $$$$$$7 from "./sections/HtmxHeader.tsx";
-import * as $$$$$$8 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$9 from "./sections/LoginSection.tsx";
-import * as $$$$$$10 from "./sections/Logos.tsx";
-import * as $$$$$$11 from "./sections/PriceCard.tsx";
-import * as $$$$$$12 from "./sections/RegistrarSecstion.tsx";
-import * as $$$$$$13 from "./sections/SummarySection.tsx";
-import * as $$$$$$14 from "./sections/Testimonials.tsx";
-import * as $$$$$$15 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$16 from "./sections/UserPerfil.tsx";
+import * as $$$$$$2 from "./sections/CheckoutSection.tsx";
+import * as $$$$$$3 from "./sections/ContentCourse.tsx";
+import * as $$$$$$4 from "./sections/ContentSelector.tsx";
+import * as $$$$$$5 from "./sections/Faq.tsx";
+import * as $$$$$$6 from "./sections/Footer.tsx";
+import * as $$$$$$18 from "./sections/hero-1.tsx";
+import * as $$$$$$19 from "./sections/hero-2.tsx";
+import * as $$$$$$7 from "./sections/Hero.tsx";
+import * as $$$$$$20 from "./sections/hero2.tsx";
+import * as $$$$$$8 from "./sections/HtmxHeader.tsx";
+import * as $$$$$$9 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$10 from "./sections/LoginSection.tsx";
+import * as $$$$$$11 from "./sections/Logos.tsx";
+import * as $$$$$$12 from "./sections/PriceCard.tsx";
+import * as $$$$$$13 from "./sections/RegistrarSecstion.tsx";
+import * as $$$$$$14 from "./sections/SummarySection.tsx";
+import * as $$$$$$15 from "./sections/Testimonials.tsx";
+import * as $$$$$$16 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$17 from "./sections/UserPerfil.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Banner.tsx": $$$$$$0,
     "site/sections/BlogPosts.tsx": $$$$$$1,
-    "site/sections/ContentCourse.tsx": $$$$$$2,
-    "site/sections/ContentSelector.tsx": $$$$$$3,
-    "site/sections/Faq.tsx": $$$$$$4,
-    "site/sections/Footer.tsx": $$$$$$5,
-    "site/sections/hero-1.tsx": $$$$$$17,
-    "site/sections/hero-2.tsx": $$$$$$18,
-    "site/sections/Hero.tsx": $$$$$$6,
-    "site/sections/hero2.tsx": $$$$$$19,
-    "site/sections/HtmxHeader.tsx": $$$$$$7,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$8,
-    "site/sections/LoginSection.tsx": $$$$$$9,
-    "site/sections/Logos.tsx": $$$$$$10,
-    "site/sections/PriceCard.tsx": $$$$$$11,
-    "site/sections/RegistrarSecstion.tsx": $$$$$$12,
-    "site/sections/SummarySection.tsx": $$$$$$13,
-    "site/sections/Testimonials.tsx": $$$$$$14,
-    "site/sections/Theme/Theme.tsx": $$$$$$15,
-    "site/sections/UserPerfil.tsx": $$$$$$16,
+    "site/sections/CheckoutSection.tsx": $$$$$$2,
+    "site/sections/ContentCourse.tsx": $$$$$$3,
+    "site/sections/ContentSelector.tsx": $$$$$$4,
+    "site/sections/Faq.tsx": $$$$$$5,
+    "site/sections/Footer.tsx": $$$$$$6,
+    "site/sections/hero-1.tsx": $$$$$$18,
+    "site/sections/hero-2.tsx": $$$$$$19,
+    "site/sections/Hero.tsx": $$$$$$7,
+    "site/sections/hero2.tsx": $$$$$$20,
+    "site/sections/HtmxHeader.tsx": $$$$$$8,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$9,
+    "site/sections/LoginSection.tsx": $$$$$$10,
+    "site/sections/Logos.tsx": $$$$$$11,
+    "site/sections/PriceCard.tsx": $$$$$$12,
+    "site/sections/RegistrarSecstion.tsx": $$$$$$13,
+    "site/sections/SummarySection.tsx": $$$$$$14,
+    "site/sections/Testimonials.tsx": $$$$$$15,
+    "site/sections/Theme/Theme.tsx": $$$$$$16,
+    "site/sections/UserPerfil.tsx": $$$$$$17,
   },
   "apps": {
     "site/apps/decohub.ts": $$$$$$$$$$$0,
