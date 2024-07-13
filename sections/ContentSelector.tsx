@@ -36,7 +36,7 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
     }
 
     const content = items &&
-        <div >
+        <div>
             <h2 class="text-4xl font-semibold text-center">{items[selectedContent].Title}</h2>
 
             {items[selectedContent].chosenMidia == 'Video'
@@ -54,7 +54,7 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
                     </video>
                 </div>}
 
-            {items[selectedContent].chosenMidia == 'Youtube video' && items[selectedContent].YoutubeVideo && <div class="w-full  xl:w-[1000px] xl:h-[600px]">
+            {items[selectedContent].chosenMidia == 'Youtube video' && items[selectedContent].YoutubeVideo && <div class="h-[60vw] w-[100vw] md:w-[50vw] md:h-[35vw]  xl:w-[1000px] xl:h-[600px]">
                 <iframe
                     class="w-full h-full"
                     width="1000"
@@ -66,12 +66,12 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
             </div>}
 
             {items[selectedContent].chosenMidia == 'Image' && items[selectedContent].Image &&
-                <div class="max-w-[1000px] max-h-[600px]">
+                <div class="max-h-[600px] overflow-hidden">
                     <Image
                         src={items[selectedContent].Image}
                         alt={items[selectedContent].ImageAlt || ""}
                         width={1000}
-                        class="h-full"
+                        class="h-full object-cover"
                     />
                 </div>}
 
@@ -85,14 +85,15 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
 
     return (
         <section>
-            <div class="max-w-[1440px] flex justify-between gap-4 mx-auto">
-                <ul class="bg-primary-content min-w-[400px] rounded-xl p-4">
+            <div class="max-w-[1440px] flex flex-wrap md:flex-nowrap justify-between gap-4 mx-auto">
+                <ul class="bg-primary-content min-w-[360px] rounded-xl p-4 flex md:flex-col overflow-x-scroll md:overflow-x-hidden">
                     {items && items.map((item, index) => (
-                        <li class={`text-xl p-3 ${index != items.length - 1 && 'border-b'} border-primary`}>
+                        <li class={`text-xl p-3 border-b last:border-0 border-primary min-w-64`}>
                             <button
                                 hx-trigger="click"
                                 hx-get={useSection({ props: { selectedContent: index, renderContent: true } })}
                                 hx-target="#content"
+                                class="w-full text-left"
                             >
                                 {item.Title}
 

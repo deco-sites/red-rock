@@ -2043,7 +2043,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 28.391167192429023,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2057,15 +2057,15 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
-                    "reorderEnabled": true,
-                    "width": 30
+                    "reorderEnabled": true
                   }
                 ]
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 71.60883280757098,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2079,9 +2079,9 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-VideoPage-988038.json::Preview::visibility::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
-                    "reorderEnabled": true,
-                    "width": 70
+                    "reorderEnabled": true
                   }
                 ]
               }
