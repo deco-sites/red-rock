@@ -6,6 +6,11 @@
       "__resolveType": "global Header"
     },
     {
+      "__resolveType": "site/sections/Banner.tsx",
+      "title": "Fundamentos",
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/790a6df9-4a88-4e4d-aa40-001a3de92ca2"
+    },
+    {
       "__resolveType": "site/sections/ContentSelector.tsx",
       "items": [
         {
