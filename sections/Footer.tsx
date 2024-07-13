@@ -23,7 +23,7 @@ export default function Footer({
   return (
     <footer>
       <div class="h-10"></div>
-      <div class="bg-primary fixed bottom-0 left-0 w-full z-50">
+      <div class="bg-primary fixed bottom-0 left-0 w-full z-50 py-1.5">
         <div class="flex justify-between min-h-6 px-4 sm:px-10 max-w-[1440px] mx-auto">
           <p>{copyright}</p>
           {logo.src && <a href={logo.href} class="h-6">
