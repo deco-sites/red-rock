@@ -3,7 +3,23 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "global Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
+      },
+      "title": "red rock",
+      "logoImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
+      "socialIcons": [
+        {
+          "href": "/",
+          "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bbbba190-3147-4e74-adc7-92cc7855e184"
+        },
+        {
+          "href": "/",
+          "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0a21cfcb-00c7-400e-8ba0-55ce6b5d2ea8"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
@@ -30,17 +46,16 @@
       ]
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "site/sections/ProductInfo.tsx"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/ProductInfo.tsx"
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "__resolveType": "site/sections/ProductInfo.tsx"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "site/sections/ProductInfo.tsx"
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
