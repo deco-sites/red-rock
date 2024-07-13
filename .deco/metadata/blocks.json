@@ -113,10 +113,6 @@
     "blockType": "sections",
     "__resolveType": "site/sections/Theme/Theme.tsx"
   },
-  "/.deco/blocks/pages-Courses-478943.json": {
-    "name": "Courses",
-    "path": "/courses"
-  },
   "/.deco/blocks/pages-login-563054.json": {
     "name": "login",
     "path": "/login",
@@ -144,5 +140,35 @@
     "path": "/register",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-User%2520Perfil-248549.json": {
+    "name": "User Perfil",
+    "path": "/user-perfil",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Summary-776323.json": {
+    "name": "Summary",
+    "path": "/summary",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Summary.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FSummarySection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/SummarySection.tsx"
+  },
+  "/.deco/blocks/pages-My%2520Courses-306921.json": {
+    "name": "Checkout",
+    "path": "/checkout",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2FCheckoutSection.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/CheckoutSection.tsx"
   }
 }

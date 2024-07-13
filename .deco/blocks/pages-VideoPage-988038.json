@@ -6,25 +6,31 @@
       "__resolveType": "global Header"
     },
     {
+      "__resolveType": "site/sections/Banner.tsx",
+      "title": "Fundamentos",
+      "backgroundImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/790a6df9-4a88-4e4d-aa40-001a3de92ca2"
+    },
+    {
       "__resolveType": "site/sections/ContentSelector.tsx",
       "items": [
         {
           "Title": "Lorem Ipsum",
           "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/63d8fede-d73e-4783-a745-95ee2e7721e8",
-          "YoutubeVideo": "https://www.youtube.com/watch?v=BY2mTMBkuFI",
-          "chosenMidia": "Video"
+          "YoutubeVideo": "https://www.youtube.com/watch?v=5ouVWbW7SsM",
+          "chosenMidia": "Youtube video"
         },
         {
           "Title": "Lorem Ipsum 2",
           "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/63d8fede-d73e-4783-a745-95ee2e7721e8",
-          "YoutubeVideo": "https://www.youtube.com/watch?v=BY2mTMBkuFI",
+          "YoutubeVideo": "https://www.youtube.com/watch?v=lBvwtj-vzR4",
           "Text": "<p></p>",
           "chosenMidia": "Youtube video"
         },
         {
           "Title": "Lorem Ipsum 3",
-          "Text": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p><br></p>",
-          "chosenMidia": "Video"
+          "Text": "<p></p><p><br></p>",
+          "chosenMidia": "Youtube video",
+          "YoutubeVideo": "https://www.youtube.com/watch?v=9QVedZ8YMGw"
         },
         {
           "Title": "Lorem Ipsum 4",
