@@ -79,6 +79,18 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
                 dangerouslySetInnerHTML={{ __html: items[selectedContent].Text }}
             >
             </p>}
+
+            {items && selectedContent != items.length - 1 && <div>
+                <button
+                    class="flex items-center transition-transform duration-300 hover:scale-110"
+                    hx-trigger="click"
+                    hx-get={useSection({ props: { selectedContent: selectedContent + 1, renderContent: true } })}
+                    hx-target="#content"
+                >
+                    <span class="text-2xl text-secondary pt-2">{items[selectedContent + 1].Title}</span>
+                    <span class="text-6xl text-primary font-black">{'>'}</span>
+                </button>
+            </div>}
         </div>
 
     if (renderContent) return content;
