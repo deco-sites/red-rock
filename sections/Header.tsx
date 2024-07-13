@@ -16,7 +16,12 @@ interface Props {
   courses?: string[];
 }
 
-export default function HeaderLandingPage({ title = "Capy", logoImage, socialIcons, courses }: Props) {
+export default function HeaderLandingPage({
+  title = "Capy",
+  logoImage = "",
+  socialIcons = [],
+  courses = [],
+}: Props) {
   return (
     <div class="bg-primary">
       <div class="md:w-[1300px] flex items-center justify-between mx-auto">

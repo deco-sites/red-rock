@@ -20,6 +20,9 @@ export interface Props {
   contacts?: ImagesContacts[];
 }
 
+const DEFAULT_IMAGE =
+  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
+
 export default function SideBarCourse({
   events = [],
   description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dumm",
@@ -67,13 +70,13 @@ export default function SideBarCourse({
           class={`flex gap-2 w-full overflow-auto justify-around px-2 mt-auto`}
         >
           {contacts.map((c) => (
-            <a href={c.link || "https://deco.cx/"}>
+            <a href={c.link || "https://deco.cx/"} target={"_blank"}>
               <Image
                 width={50}
                 height={50}
                 class="object-fit z-10"
-                src={c.image}
-                alt={c.link}
+                src={c.image || DEFAULT_IMAGE}
+                alt={c.link || "Default Logo"}
                 decoding="async"
                 loading="lazy"
               />

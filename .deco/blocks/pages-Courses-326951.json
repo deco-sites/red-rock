@@ -30,76 +30,21 @@
         "events": [
           {},
           {},
-          {},
           {}
         ],
         "contacts": [
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/e5e3884e-8ec9-43e1-9dc5-9be5c6364f98"
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/437effb1-8c22-4915-804c-5a0179ed0e2b"
-          },
-          {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cd394fcd-ee2e-4108-b5e2-66c5eccad3ee"
-          }
+          {},
+          {},
+          {}
         ]
       },
       "classes": [
-        {
-          "onClick": {},
-          "courseTitle": "TEst",
-          "courseImage": {
-            "link": "https://deco.cx/",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/35f72d3c-ac20-4ab7-9b10-4c6ed9452103"
-          },
-          "link": "/courses"
-        },
-        {
-          "onClick": {},
-          "courseTitle": "TEst",
-          "courseImage": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/35f72d3c-ac20-4ab7-9b10-4c6ed9452103",
-            "link": "https://deco.cx/"
-          },
-          "link": "/courses"
-        },
-        {
-          "onClick": {},
-          "courseTitle": "TEst",
-          "courseImage": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/35f72d3c-ac20-4ab7-9b10-4c6ed9452103",
-            "link": "https://deco.cx/"
-          },
-          "link": "/courses"
-        },
-        {
-          "onClick": {},
-          "courseTitle": "TEst",
-          "courseImage": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/35f72d3c-ac20-4ab7-9b10-4c6ed9452103",
-            "link": "https://deco.cx/"
-          },
-          "link": "/courses"
-        },
-        {
-          "onClick": {},
-          "courseTitle": "New Course",
-          "courseImage": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/6318270c-5f06-40d0-8531-a8e9b0d36a1f",
-            "link": "https://deco.cx/"
-          },
-          "link": "/courses"
-        },
-        {
-          "onClick": {},
-          "courseTitle": "New Course",
-          "courseImage": {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/6318270c-5f06-40d0-8531-a8e9b0d36a1f",
-            "link": "https://deco.cx/"
-          },
-          "link": "/courses"
-        }
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
       ]
     },
     {
