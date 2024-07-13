@@ -87,8 +87,8 @@ export default function ContentSelector({ items, selectedContent = 0, renderCont
                     hx-get={useSection({ props: { selectedContent: selectedContent + 1, renderContent: true } })}
                     hx-target="#content"
                 >
-                    <span class="text-2xl text-secondary pt-2">{items[selectedContent + 1].Title}</span>
-                    <span class="text-6xl text-primary font-black">{'>'}</span>
+                    <span class="text-xl text-secondary pt-2">{items[selectedContent + 1].Title}</span>
+                    <span class="text-3xl text-primary font-black">{'>'}</span>
                 </button>
             </div>}
         </div>
