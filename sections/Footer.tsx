@@ -21,7 +21,7 @@ export default function Footer({
 }: Props) {
 
   return (
-    <div class="flex justify-between min-h-6 bg-primary px-11/12">
+    <div class="flex justify-between min-h-6 bg-primary px-4 sm:px-10">
       <p>{copyright}</p>
       {logo.src && <a href={logo.href} class="h-6">
         <Image
