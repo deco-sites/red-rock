@@ -1,213 +1,203 @@
 {
   "name": "Home",
   "path": "/",
-  "sections": {
-    "__resolveType": "website/flags/multivariate.ts",
-    "variants": [
-      {
-        "value": [
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
           {
-            "__resolveType": "site/sections/Header.tsx",
-            "navigation": {
-              "links": [
-                {
-                  "label": "Curso 1",
-                  "url": "/"
-                },
-                {
-                  "label": "Curso 2"
-                },
-                {
-                  "label": "Curso 3"
-                },
-                {
-                  "label": "Curso 4"
-                }
-              ],
-              "buttons": [
-                {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0a21cfcb-00c7-400e-8ba0-55ce6b5d2ea8"
-                },
-                {
-                  "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bbbba190-3147-4e74-adc7-92cc7855e184"
-                }
-              ]
-            },
-            "title": "red rock",
-            "logoImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
-            "socialIcons": [
-              {
-                "href": "/",
-                "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bbbba190-3147-4e74-adc7-92cc7855e184"
-              },
-              {
-                "href": "/",
-                "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0a21cfcb-00c7-400e-8ba0-55ce6b5d2ea8"
-              }
-            ],
-            "logo": {
-              "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
-              "alt": "logo red rock"
-            }
+            "label": "Curso 1",
+            "url": "/"
           },
           {
-            "__resolveType": "site/sections/Hero.tsx",
-            "title": "<p>Click here to tweak this text however you want.</p>",
-            "cta": [],
-            "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-            "imageCard": [
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/a352e15a-1bd6-449e-b5a4-2262b4136373",
-                "label": "Cursos"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/f566f355-e439-4ff6-9c0a-b87081517080",
-                "label": "Segredos"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/6a4defac-09cd-458b-a8bf-b935412c83a6",
-                "label": "Social media"
-              },
-              {
-                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/3bbc7f3d-48ff-4434-a73e-31c220681a07",
-                "label": "Lives"
-              }
-            ]
+            "label": "Curso 2"
           },
           {
-            "__resolveType": "site/sections/ProductInfo.tsx",
-            "title": "Programa completo para se tornar um profissional cobiçado",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "cta": {
-              "href": "/checkout",
-              "text": "Get Started"
-            },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/daa3dc2b-9bf7-4c3b-8670-2b45f2d72dfc",
-            "id": "cursos",
-            "disableSpacing": {
-              "bottom": true
-            }
+            "label": "Curso 3"
           },
           {
-            "__resolveType": "site/sections/ProductInfo.tsx",
-            "title": "Segredos do traffego Pago",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c4a4b6d5-518c-4dcd-ade8-54319626deeb",
-            "cta": {
-              "href": "/checkout",
-              "text": "Get Started"
-            },
-            "disableSpacing": {
-              "bottom": true
-            },
-            "id": "secret"
-          },
-          {
-            "__resolveType": "site/sections/ProductInfo.tsx",
-            "disableSpacing": {
-              "bottom": true
-            },
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "title": "Social Media",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/a27ef667-772e-475c-989e-331e67a6cecd",
-            "cta": {
-              "href": "/checkout",
-              "text": "Get Started"
-            },
-            "id": "social"
-          },
-          {
-            "__resolveType": "site/sections/ProductInfo.tsx",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-            "title": "Lives",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c2082623-1bab-47cb-bca1-72996dc8c1a4",
-            "cta": {
-              "href": "/checkout",
-              "text": "Get Started"
-            },
-            "disableSpacing": {
-              "bottom": false
-            },
-            "id": "lives"
-          },
-          {
-            "__resolveType": "site/sections/PriceCard.tsx",
-            "title": "Nossos Planos",
-            "subtitle": "Alavanque a sua carreira!",
-            "itemCard": [
-              {
-                "featureList": [
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  }
-                ],
-                "buttonText": "FREE",
-                "icone": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c58b4ee1-8e47-4c84-9fe0-2e5f22f73a89",
-                "cardTitle": "Basic",
-                "price": "R$0,00"
-              },
-              {
-                "featureList": [
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  },
-                  {
-                    "label": "Lorem Ipsum"
-                  }
-                ],
-                "buttonText": "GET STARTED",
-                "icone": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41662a56-c512-4062-9a3f-f25ca12a694d",
-                "price": "R$19,00",
-                "cardTitle": "Premium"
-              }
-            ]
-          },
-          {
-            "__resolveType": "site/sections/Faq.tsx"
-          },
-          {
-            "__resolveType": "Footer"
+            "label": "Curso 4"
           }
         ],
-        "rule": {
-          "__resolveType": "Desktop"
+        "buttons": [
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0a21cfcb-00c7-400e-8ba0-55ce6b5d2ea8"
+          },
+          {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bbbba190-3147-4e74-adc7-92cc7855e184"
+          }
+        ]
+      },
+      "title": "red rock",
+      "logoImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
+      "socialIcons": [
+        {
+          "href": "/",
+          "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bbbba190-3147-4e74-adc7-92cc7855e184"
+        },
+        {
+          "href": "/",
+          "socialLogo": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0a21cfcb-00c7-400e-8ba0-55ce6b5d2ea8"
         }
+      ],
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cf57e72f-4c62-41dd-a758-f74aa352bb85",
+        "alt": "logo red rock"
       }
-    ]
-  },
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Click here to tweak this text however you want.</p>",
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+      "imageCard": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/a352e15a-1bd6-449e-b5a4-2262b4136373",
+          "label": "Cursos"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/f566f355-e439-4ff6-9c0a-b87081517080",
+          "label": "Segredos"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/6a4defac-09cd-458b-a8bf-b935412c83a6",
+          "label": "Social media"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/3bbc7f3d-48ff-4434-a73e-31c220681a07",
+          "label": "Lives"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx",
+      "title": "Programa completo para se tornar um profissional cobiçado",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "cta": {
+        "href": "/checkout",
+        "text": "Get Started"
+      },
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/daa3dc2b-9bf7-4c3b-8670-2b45f2d72dfc",
+      "id": "cursos",
+      "disableSpacing": {
+        "bottom": true
+      }
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx",
+      "title": "Segredos do traffego Pago",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c4a4b6d5-518c-4dcd-ade8-54319626deeb",
+      "cta": {
+        "href": "/checkout",
+        "text": "Get Started"
+      },
+      "disableSpacing": {
+        "bottom": true
+      },
+      "id": "secret"
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx",
+      "disableSpacing": {
+        "bottom": true
+      },
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "title": "Social Media",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/a27ef667-772e-475c-989e-331e67a6cecd",
+      "cta": {
+        "href": "/checkout",
+        "text": "Get Started"
+      },
+      "id": "social"
+    },
+    {
+      "__resolveType": "site/sections/ProductInfo.tsx",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "title": "Lives",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c2082623-1bab-47cb-bca1-72996dc8c1a4",
+      "cta": {
+        "href": "/checkout",
+        "text": "Get Started"
+      },
+      "disableSpacing": {
+        "bottom": false
+      },
+      "id": "lives"
+    },
+    {
+      "__resolveType": "site/sections/PriceCard.tsx",
+      "title": "Nossos Planos",
+      "subtitle": "Alavanque a sua carreira!",
+      "itemCard": [
+        {
+          "featureList": [
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            }
+          ],
+          "buttonText": "FREE",
+          "icone": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c58b4ee1-8e47-4c84-9fe0-2e5f22f73a89",
+          "cardTitle": "Basic",
+          "price": "R$0,00"
+        },
+        {
+          "featureList": [
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            },
+            {
+              "label": "Lorem Ipsum"
+            }
+          ],
+          "buttonText": "GET STARTED",
+          "icone": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41662a56-c512-4062-9a3f-f25ca12a694d",
+          "price": "R$19,00",
+          "cardTitle": "Premium"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
