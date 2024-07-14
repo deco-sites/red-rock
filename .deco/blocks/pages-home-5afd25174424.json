@@ -54,19 +54,23 @@
       "imageCard": [
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/a352e15a-1bd6-449e-b5a4-2262b4136373",
-          "label": "Cursos"
+          "label": "Cursos",
+          "href": "cursos"
         },
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/f566f355-e439-4ff6-9c0a-b87081517080",
-          "label": "Segredos"
+          "label": "Segredos",
+          "href": "secret"
         },
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/6a4defac-09cd-458b-a8bf-b935412c83a6",
-          "label": "Social media"
+          "label": "Social media",
+          "href": "social"
         },
         {
           "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/3bbc7f3d-48ff-4434-a73e-31c220681a07",
-          "label": "Lives"
+          "label": "Lives",
+          "href": "lives"
         }
       ]
     },

@@ -15,22 +15,23 @@
       "items": [
         {
           "Title": "Lorem Ipsum",
-          "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/63d8fede-d73e-4783-a745-95ee2e7721e8",
+          "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cfbc5f70-67b8-4d29-8018-6eb6ae8262de",
           "YoutubeVideo": "https://www.youtube.com/watch?v=5ouVWbW7SsM",
-          "chosenMidia": "Youtube video"
+          "chosenMidia": "Video"
         },
         {
           "Title": "Lorem Ipsum 2",
-          "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/63d8fede-d73e-4783-a745-95ee2e7721e8",
+          "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/e4ff0258-90a2-42c0-9e53-7a1e27a22106",
           "YoutubeVideo": "https://www.youtube.com/watch?v=lBvwtj-vzR4",
           "Text": "<p></p>",
-          "chosenMidia": "Youtube video"
+          "chosenMidia": "Video"
         },
         {
           "Title": "Lorem Ipsum 3",
           "Text": "<p></p><p><br></p>",
-          "chosenMidia": "Youtube video",
-          "YoutubeVideo": "https://www.youtube.com/watch?v=9QVedZ8YMGw"
+          "chosenMidia": "Video",
+          "YoutubeVideo": "https://www.youtube.com/watch?v=9QVedZ8YMGw",
+          "Video": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/e4ff0258-90a2-42c0-9e53-7a1e27a22106"
         },
         {
           "Title": "Lorem Ipsum 4",
