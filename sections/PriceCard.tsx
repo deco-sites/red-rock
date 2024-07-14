@@ -54,7 +54,7 @@ export default function Section({ title, subtitle, itemCard }: Props) {
                             <p class="text-right text-primary text-4xl font-semibold pt-5">
                                 {item.price}
                             </p>
-                            <a class="btn btn-primary mt-5">{item.buttonText}</a>
+                            <a href="/checkout" class="btn btn-primary mt-5">{item.buttonText}</a>
                         </div>
                     ))}
                 </div>

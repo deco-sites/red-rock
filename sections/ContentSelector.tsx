@@ -12,6 +12,7 @@ export interface Item {
   YoutubeVideo?: string;
   Image?: ImageWidget;
   ImageAlt?: string;
+  /** @description Vídeo do YouTube diminui o PageSpeed (performance)  */
   chosenMidia?: "Video" | "Youtube video" | "Image";
 
   /** @format rich-text */
