@@ -72,9 +72,11 @@ export default function ContentSelector({
               class="w-full h-full"
               width="1000"
               height="1000"
-              src={`https://www.youtube.com/embed/${getYoutubeVideoId(
-                items[selectedContent].YoutubeVideo
-              )}` || ""}
+              src={
+                `https://www.youtube.com/embed/${getYoutubeVideoId(
+                  items[selectedContent].YoutubeVideo || ""
+                )}` || ""
+              }
               frameborder="0"
               loading="lazy"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -100,7 +102,9 @@ export default function ContentSelector({
       {items[selectedContent].Text && (
         <p
           class="mt-4"
-          dangerouslySetInnerHTML={{ __html: items[selectedContent].Text || "" }}
+          dangerouslySetInnerHTML={{
+            __html: items[selectedContent].Text || "",
+          }}
         ></p>
       )}
 

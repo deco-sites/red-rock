@@ -58,10 +58,8 @@ export default function Section({ title, subtitle, itemCard }: Props) {
                         </div>
                     ))}
                 </div>
-            </div>
-          ))}
         </div>
       </div>
-    </div>
+   
   );
 }
