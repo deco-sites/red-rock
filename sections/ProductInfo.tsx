@@ -16,22 +16,19 @@ export interface Props {
     top?: boolean;
     bottom?: boolean;
   };
-  id: string;
+  id?: string;
 }
-
-
 
 const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
 
-export default function ImageWithParagraph({
+export default function ProductInfo({
   title = "Here's an intermediate size heading you can edit",
   description = "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-  id="1",
+  id = "1",
   image = DEFAULT_IMAGE,
   disableSpacing,
-  cta = 
-    {href: "/", text: "Change me",  },
+  cta = { href: "/", text: "Change me" },
 }: Props) {
   return (
     <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm" id={id}>
@@ -58,7 +55,6 @@ export default function ImageWithParagraph({
             <a
               href={cta.href}
               class="btn btn-primary text-base font-semibold text-secondarybtn-outline"
-                
             >
               {cta.text}
             </a>

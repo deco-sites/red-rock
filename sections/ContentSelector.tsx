@@ -29,7 +29,7 @@ export interface Props {
 }
 
 export default function ContentSelector({
-  items,
+  items = [],
   selectedContent = 0,
   renderContent,
 }: Props) {

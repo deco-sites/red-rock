@@ -10,7 +10,11 @@ interface Props {
   description: string;
 }
 
-export default function Section({ title = "deco", image, description }: Props) {
+export default function Section({
+  title = "Title",
+  image = "",
+  description = "Lorem Ipsum",
+}: Props) {
   return (
     <div class="flex items-center justify-center w-screen h-screen">
       <div

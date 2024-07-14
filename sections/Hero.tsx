@@ -11,7 +11,7 @@ export interface Props {
   imageCard: HeroBlocks[];
 }
 
-export default function HeroFlats({ imageCard }: Props) {
+export default function HeroFlats({ imageCard = [] }: Props) {
   return (
     <div class="md:w-[1300px] flex md:flex-row flex-col justify-center items-center  h-[600px] mx-auto">
       {imageCard.map((item, index) => (

@@ -1,16 +1,19 @@
-import { ImagesContacts } from "site/components/SideBarCourse.tsx";
 import Image from "apps/website/components/Image.tsx";
+import { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface ICourseCard {
   courseTitle?: string;
-  courseImage?: ImagesContacts;
-  link: string;
+  courseImage?: ImageWidget;
+  link?: string;
 }
 
+const DEFAULT_IMAGE =
+  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
+
 export default function CourseCard({
-  courseTitle,
-  courseImage,
-  link,
+  courseTitle = "Curso",
+  courseImage = DEFAULT_IMAGE,
+  link = "/video",
 }: ICourseCard) {
   return (
     <a class={`flex flex-col gap-3 w-fit h-fit mx-auto`} href={link}>
@@ -18,7 +21,7 @@ export default function CourseCard({
         width={250}
         height={250}
         class="object-fit z-10 rounded-[20px] border-primary border-4"
-        src={courseImage?.image || ""}
+        src={courseImage}
         alt={courseTitle}
         decoding="async"
         loading="lazy"

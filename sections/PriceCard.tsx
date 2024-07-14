@@ -2,24 +2,24 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 export interface Feature {
-    label: string;
+  label: string;
 }
 
 export interface Card {
-    icone: ImageWidget;
-    cardTitle: string;
-    featureList: Feature[];
-    price: string;
-    buttonText: "FREE" | "GET STARTED";
+  icone: ImageWidget;
+  cardTitle: string;
+  featureList: Feature[];
+  price: string;
+  buttonText: "FREE" | "GET STARTED";
 }
 
 export interface Props {
-    /**
+  /**
      
   @description The description of name.*/
-    title?: string;
-    subtitle?: string;
-    itemCard: Card[];
+  title?: string;
+  subtitle?: string;
+  itemCard: Card[];
 }
 export default function Section({ title, subtitle, itemCard }: Props) {
     return (
@@ -59,6 +59,9 @@ export default function Section({ title, subtitle, itemCard }: Props) {
                     ))}
                 </div>
             </div>
+          ))}
         </div>
-    );
+      </div>
+    </div>
+  );
 }
