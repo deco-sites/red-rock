@@ -8,13 +8,28 @@
       "userPlan": [
         {
           "backGroundColor": "black",
-          "description": []
+          "description": [
+            "Lorem Ipsum",
+            "Lorem Ipsum",
+            "Lorem Ipsum"
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/42c6e1e4-0a0f-4907-9517-78877564bb45"
         },
         {
           "backGroundColor": "primary",
-          "description": []
+          "description": [
+            "Lorem Ipsum",
+            "Lorem Ipsum",
+            "Lorem Ipsum"
+          ],
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41662a56-c512-4062-9a3f-f25ca12a694d",
+          "subText": "12x sem juros",
+          "totalPrice": "19,00"
         }
-      ]
+      ],
+      "userInfo": {
+        "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41662a56-c512-4062-9a3f-f25ca12a694d"
+      }
     }
   ],
   "seo": {
