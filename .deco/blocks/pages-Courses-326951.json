@@ -49,12 +49,36 @@
         "contatTitle": "Contato"
       },
       "classes": [
-        {},
-        {},
-        {},
-        {},
-        {},
-        {}
+        {
+          "courseImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cdcd4c2c-f0f3-496a-9632-30e95d8da07e",
+          "courseTitle": "Lorem Ipsum",
+          "link": "/video"
+        },
+        {
+          "courseTitle": "Lorem Ipsum",
+          "courseImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/1a86b9a3-85c7-45e3-9e2b-b83523dbf41b",
+          "link": "/video"
+        },
+        {
+          "courseImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/897a26f0-5a75-4db1-b61d-4f8b81265d00",
+          "courseTitle": "Lorem Ipsum",
+          "link": "/video"
+        },
+        {
+          "courseTitle": "Lorem Ipsum",
+          "courseImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/e43a3d8a-c259-4ccc-ab28-6ed2afbaa122",
+          "link": "/video"
+        },
+        {
+          "courseTitle": "Lorem Ipsum",
+          "courseImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41140b35-ac66-4217-8a78-9003e7d52df9",
+          "link": "/video"
+        },
+        {
+          "courseTitle": "Lorem Ipsum",
+          "courseImage": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/cd7dc001-1acd-4de6-a0f1-f49360236b6b",
+          "link": "/video"
+        }
       ]
     },
     {
