@@ -3,6 +3,9 @@
   "path": "/user-perfil",
   "sections": [
     {
+      "__resolveType": "global Header"
+    },
+    {
       "__resolveType": "site/sections/UserPerfil.tsx",
       "title": "Meu Perfil",
       "userPlan": [
@@ -30,6 +33,9 @@
       "userInfo": {
         "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41662a56-c512-4062-9a3f-f25ca12a694d"
       }
+    },
+    {
+      "__resolveType": "Footer"
     }
   ],
   "seo": {
