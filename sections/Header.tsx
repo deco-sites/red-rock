@@ -51,10 +51,10 @@ export default function Header({
           <div class="h-10 md:h-16 flex gap-2">
 
             <a href="/">
-              <Image src={logo.src || ""} width={67} height={67} class="h-full object-contain" alt={logo.alt} />
+              <Image src={logo.src || ""} width={67} height={67} class="h-full object-contain whitespace-nowrap" alt={logo.alt} />
             </a>
           </div>
-          {title && <h2 class="text-secondary font-bold text-4xl">{title}</h2>}
+          {title && <h2 class="text-secondary font-bold text-4xl whitespace-nowrap">{title}</h2>}
           <div id="navContainer" class={`hidden items-center justify-end lg:flex w-full pr-2.5`}>
             <div
               id="navItemsContainer"
