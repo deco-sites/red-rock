@@ -1,10 +1,5 @@
-import Image from "apps/website/components/Image.tsx";
-import type { ImageWidget } from "apps/admin/widgets.ts";
-
 export interface Logo {
-  src?: ImageWidget;
-  /** @description text alternative */
-  altText?: string;
+  titleBrands?: string;
 }
 
 export interface Props {
@@ -13,9 +8,7 @@ export interface Props {
 }
 
 const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
-  src:
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/03fbcc78-ca86-4616-a59a-b8aa18331a9c",
-  altText: "Logo",
+  titleBrands: "Lorem Ipsom"
 }));
 
 export default function Logos({
@@ -26,12 +19,7 @@ export default function Logos({
     <div class="flex items-center gap-20">
       {logos?.map((logo) => {
         return (
-          <Image
-            src={logo.src || ""}
-            alt={logo.altText || ""}
-            width={110}
-            height={25}
-          />
+          <p class="text-4xl font-bold uppercase">{logo.titleBrands}</p>
         );
       })}
     </div>

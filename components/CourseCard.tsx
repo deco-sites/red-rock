@@ -18,7 +18,7 @@ export default function CourseCard({
         width={250}
         height={250}
         class="object-fit z-10 rounded-[20px] border-primary border-4"
-        src={courseImage?.image}
+        src={courseImage?.image || ""}
         alt={courseTitle}
         decoding="async"
         loading="lazy"

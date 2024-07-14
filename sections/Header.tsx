@@ -34,7 +34,7 @@ export default function HeaderLandingPage({ title = "Capy", logoImage, socialIco
         </div>
         <div class="flex">
           <nav class="flex mr-5 gap-3">
-            {courses.map((course) => (
+            {courses?.map((course) => (
               <span>{course}</span>
             ))}
           </nav>

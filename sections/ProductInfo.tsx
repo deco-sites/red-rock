@@ -40,11 +40,11 @@ export default function ImageWithParagraph({
           disableSpacing?.top ? "" : "pt-12 lg:pt-28"
         } ${disableSpacing?.bottom ? "" : "pb-12 lg:pb-28"}`}
       >
-        <div class="w-full h-[350px] border border-secondary rounded-lg overflow-hidden">
+        <div class="w-full h-full md:max-h-[350px] border border-secondary rounded-lg overflow-hidden">
           <Image
             width={1300}
             height={350}
-            class="object-fit z-10"
+            class="object-cover z-10 "
             src={image}
             alt={image}
             decoding="async"

@@ -34,7 +34,7 @@
       "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
       "imageCard": [
         {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/bec50c6a-25da-44b9-a037-369c6713c087",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/a352e15a-1bd6-449e-b5a4-2262b4136373",
           "label": "test"
         },
         {
@@ -52,7 +52,11 @@
       ]
     },
     {
-      "__resolveType": "site/sections/ProductInfo.tsx"
+      "__resolveType": "site/sections/ProductInfo.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/c4a4b6d5-518c-4dcd-ade8-54319626deeb",
+      "title": "e",
+      "description": "f",
+      "id": "cursos"
     },
     {
       "__resolveType": "site/sections/ProductInfo.tsx"
@@ -93,27 +97,6 @@
     },
     {
       "__resolveType": "site/sections/Faq.tsx"
-    },
-    {
-      "__resolveType": "site/sections/ContentCourse.tsx",
-      "name": {
-        "capy": "Goo",
-        "events": [
-          {
-            "mainText": "Workshop I 20/04/2024",
-            "link": "https://deco.cx/",
-            "textLink": "See"
-          },
-          {
-            "mainText": "Workdshop II 20/04/2024",
-            "link": "https://deco.cx/"
-          },
-          {},
-          {},
-          {},
-          {}
-        ]
-      }
     },
     {
       "__resolveType": "Footer"

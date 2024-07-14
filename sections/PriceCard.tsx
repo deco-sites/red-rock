@@ -29,7 +29,7 @@ export default function Section({ title, subtitle, itemCard }: Props) {
                 <p class="text-xl text-secondary font-medium pt-5 text-center">
                     {subtitle}
                 </p>
-                <div class="flex pt-10 gap-20 justify-center">
+                <div class="flex md:flex-row flex-col pt-10 gap-20 justify-center">
                     {itemCard.map((item) => (
                         <div class=" border border-primary rounded-xl p-8 bg-secondary w-11/12 md:w-72 flex flex-col items-center">
                             <Image

@@ -10,7 +10,7 @@ interface Props {
   description: string;
 }
 
-export default function Section({ title = "Capy", image, description }: Props) {
+export default function Section({ title = "deco", image, description }: Props) {
   return (
     <div class="flex items-center justify-center w-screen h-screen">
       <div
@@ -22,7 +22,7 @@ export default function Section({ title = "Capy", image, description }: Props) {
             width={40}
             height={40}
             class="mx-auto my-auto pr-4"
-            src={image}
+            src={image || ""}
             alt={description}
             decoding="async"
             loading="lazy"
@@ -55,12 +55,13 @@ export default function Section({ title = "Capy", image, description }: Props) {
           />
         </form>
 
-        <button
+        <a
+          href="/courses"
           class="btn btn-sm btn-primary grid items-center justify-center mx-auto mt-[20px]
           rounded-[10px] w-[200px] text-secondary text-[20px]"
         >
           Login
-        </button>
+        </a>
 
         <a
           href="./register"
