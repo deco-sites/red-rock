@@ -53,7 +53,7 @@ export default function SummarySection({
         <div class="w-full md:w-fit rounded-md overflow-hidden">
           <Image
             width={250}
-            height={400}
+            height={250}
             class="object-cover z-10"
             src={image}
             alt={image}

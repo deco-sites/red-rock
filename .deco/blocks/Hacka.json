@@ -17,13 +17,15 @@
   "mode": "light",
   "mainColors": {
     "base-100": "#252222",
-    "primary": "#e40101",
+    "primary": "#E40101",
     "secondary": "#e6e6e6",
     "tertiary": "#6b0000",
-    "neutral": "#252222"
+    "neutral": "#252222",
+    "success": "#057a32"
   },
   "complementaryColors": {
     "primary-content": "#000000",
-    "base-200": "#545454"
+    "base-200": "#545454",
+    "secondary-content": "#7e7c7c"
   }
 }
