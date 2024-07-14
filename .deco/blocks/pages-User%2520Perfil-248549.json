@@ -22,7 +22,9 @@
             "Lorem Ipsum",
             "Lorem Ipsum"
           ],
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41662a56-c512-4062-9a3f-f25ca12a694d"
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/41662a56-c512-4062-9a3f-f25ca12a694d",
+          "subText": "12x sem juros",
+          "totalPrice": "19,00"
         }
       ],
       "userInfo": {

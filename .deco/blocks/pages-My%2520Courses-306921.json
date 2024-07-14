@@ -3,7 +3,8 @@
   "path": "/checkout",
   "sections": [
     {
-      "__resolveType": "site/sections/CheckoutSection.tsx"
+      "__resolveType": "site/sections/CheckoutSection.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11563/0814791a-5277-4c3e-8797-92f06ee299c5"
     },
     {
       "__resolveType": "Footer"
